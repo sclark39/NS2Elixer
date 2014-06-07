@@ -1,5 +1,5 @@
 #Elixer
-#### Cross-Mod Compatible Utility Function Library for Modders
+#### Cross-Mod Compatible Utility Library for Modders
 
 
 ### To Use
@@ -17,6 +17,7 @@ You should also call ```Elixer.UseVersion( versionNumber )``` before trying to c
 ### Included Functions
 ```lua
 -- Function List
+Elixer.UseVersion( versionNumber )
 EPrint( fmt, ... )
 EPrintDebug( fmt, ... )
 EPrintCallHook( class, name )
