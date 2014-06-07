@@ -1,15 +1,18 @@
 #Elixer
 #### Cross-Mod Compatible Utility Function Library for Modders
 
-Put ```Elixer_Utility.lua``` in a **unique** subdirectory of your mod to avoid any conflicts. If the file path matches any other mod's, the results will be unpredictable.
-
-Call ```Elixer.UseVersion( versionNumber )``` before trying to call any of these functions in your mod to ensure the right versions are loaded into memory
 
 ### To Use
+
+Put ```Elixer_Utility.lua``` in a **unique** subdirectory of your mod to avoid any conflicts. If the file path matches any other mod's, the results will be unpredictable.
+
 ```
 Script.Load( "lua/youruniquesubdir/Elixer_Utility.lua" )
 Elixer.UseVersion( 1.71 )
 ```
+
+You should also call ```Elixer.UseVersion( versionNumber )``` before trying to call any of these functions in your mod to ensure the right versions are loaded into memory
+
 
 ### Included Functions
 ```lua
