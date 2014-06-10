@@ -8,7 +8,7 @@ Put ```Elixer_Utility.lua``` in a **unique** subdirectory of your mod to avoid a
 
 ```
 Script.Load( "lua/youruniquesubdir/Elixer_Utility.lua" )
-Elixer.UseVersion( 1.71 )
+Elixer.UseVersion( 1.72 )
 ```
 
 You should also call ```Elixer.UseVersion( versionNumber )``` before trying to call any of these functions in your mod to ensure the right versions are loaded into memory
@@ -35,5 +35,9 @@ set( tbl )
 ```
 
 ### Latest changes
-- 2014-07-06:
+- 2014-06-10: (Version 1.72)
+	- Fixed Class_AddMethod to assert instead of silently fail if the method already exists in the class
+	- Fixed prints not showing the full version number
+	
+- 2014-06-07: (Version 1.71)
 	- Released first version of Elixer to the community
